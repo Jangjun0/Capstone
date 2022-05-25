@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="165dp"
+        android:layout_height="124dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/activity"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="177dp"
+        android:layout_height="111dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/option"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="170dp"
+        android:layout_height="111dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/visit"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="170dp"
+        android:layout_height="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/search"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="158dp"
+        android:layout_height="32dp"
+        android:text="동아리 개설"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="168dp"
+        android:layout_height="29dp"
+        android:text="내 동아리"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="477dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="173dp"
+        android:layout_height="28dp"
+        android:text="동아리 구경"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="479dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="162dp"
+        android:layout_height="32dp"
+        android:text="동아리 검색"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
