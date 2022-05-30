@@ -8,7 +8,7 @@
 
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/Activityname"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_margin="20dp"
@@ -16,7 +16,7 @@
         android:text="동아리:" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/chairman"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_margin="20dp"
@@ -24,7 +24,7 @@
         android:text="회장: " />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/vice_chairman"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_margin="20dp"
